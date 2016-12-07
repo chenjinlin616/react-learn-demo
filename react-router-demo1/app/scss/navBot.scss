@@ -1,0 +1,16 @@
+.nav-bot{
+  width:100%;
+  li{
+    display: inline-block;
+    text-align: center;
+    width:25%;
+    list-style: none;
+    a{
+      display: block;
+      padding:5px 0;
+      text-decoration: none;
+      color:white;
+      background: #7e6f10;
+    }
+  }
+}

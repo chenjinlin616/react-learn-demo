@@ -1,7 +1,7 @@
 var path = require('path');
 var OpenBrowserPlugin = require('open-browser-webpack-plugin');
 module.exports = {
-    entry: path.resolve(__dirname,'./app/index.js'),
+    entry: path.resolve(__dirname,'./app/App.js'),
     output: {
         path: path.resolve(__dirname,'./build'),
         filename: 'bundle.js'
