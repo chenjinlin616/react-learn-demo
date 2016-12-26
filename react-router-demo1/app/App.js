@@ -10,6 +10,15 @@ import Mine from './components/Mine.js';
 
 import './../app/scss/index.scss';
 import testPng from './../app/img/pay-fail.png';
+class Message extends React.Component{
+    render(){
+        return(
+            <div className='message'>
+                message
+            </div>
+        )
+    }
+}
 
 class App extends React.Component{
     render(){
@@ -25,7 +34,9 @@ class App extends React.Component{
                 <Route path="/" component={NavBot}>
                     <IndexRoute component={Index}/>
                     <Route path="/news" component={News}/>
-                    <Route path="/find" component={Find}/>
+                    <Route path="/find" component={Find}>
+                        <Route path="messages/:id" component={Message}/>
+                    </Route>
                     <Route path="/mine" component={Mine}/>
                 </Route>
             </Router>
