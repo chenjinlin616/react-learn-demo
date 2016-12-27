@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import './../scss/navBot.scss';
 
-export default class NavBot extends React.Component{
+export default class NavIndex extends React.Component{
     render(){
         // console.log(this.props.children);
         return(

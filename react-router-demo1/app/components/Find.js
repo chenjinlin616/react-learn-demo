@@ -5,6 +5,7 @@ export default class Find extends React.Component{
         return(
             <div className='news'>
                 Find.js
+                {this.props.children || "Welcome to your Find"}
             </div>
         )
     }
