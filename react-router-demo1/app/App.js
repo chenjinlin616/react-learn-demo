@@ -9,7 +9,7 @@ import Find from './components/Find.js';
 import Mine from './components/Mine.js';
 
 import './../app/scss/index.scss';
-import testPng from './../app/img/pay-fail.png';
+
 class FindInside extends React.Component{
     render(){
         return(
