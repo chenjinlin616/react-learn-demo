@@ -8,6 +8,7 @@ export default class AddController extends React.Component{
     addNewTask(inputTask){
         console.log(`AddController 的 addNewTask: ${inputTask}`);
         //触发EnterAction
+        //这里的new初始化，能在export时就搞定么
         var enterAction = new EnterAction();
         enterAction.addAction(inputTask);
     }
