@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import AddController from './components/AddController.js'
+
+import './../sass/index.scss';
+import mmPic from './../images/mm.jpg';
+
 class App extends React.Component{
     constructor(){
         super();
@@ -16,6 +21,8 @@ class App extends React.Component{
             <div className="index">
                 <p>state的值：{k1}</p>
                 <p>state的值：{k2}</p>
+                <img className="mm-pic" src={mmPic}/>
+                <AddController/>
             </div>
         )
     }
