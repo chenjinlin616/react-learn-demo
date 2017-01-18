@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 
 import AddController from './components/AddController.js'
 
-import './../sass/index.scss';
-import mmPic from './../images/mm.jpg';
+import '../sass/index.scss';
+import mmPic from '../images/mm.jpg';
 
 class App extends React.Component{
     constructor(){

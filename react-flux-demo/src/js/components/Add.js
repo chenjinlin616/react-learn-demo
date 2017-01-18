@@ -14,8 +14,10 @@ export default class Add extends React.Component{
         }
     }
     render(){
+
         return(
             <div className="add">
+                <ul></ul>
                 <input ref='inputTask' onKeyUp={this.upEnter.bind(this)} type="text" placeholder="输入任务，按enter键"/>
             </div>
         )
