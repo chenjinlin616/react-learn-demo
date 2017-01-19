@@ -33,6 +33,6 @@ export default class AddController extends React.Component{
         // EnterAction.addAction2(inputTask);
     }
     render(){
-        return <Add addNewTask={this.addNewTask.bind(this)}/>
+        return <Add lists={this.state.lists} addNewTask={this.addNewTask.bind(this)}/>
     }
 };
