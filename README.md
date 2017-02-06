@@ -25,4 +25,14 @@ react study demos:
 [http://www.ruanyifeng.com/blog/2016/05/react_router.html](http://www.ruanyifeng.com/blog/2016/05/react_router.html)
 
 
-## demo2: ......
+## demo2:  [react-flux-demo](/react-flux-demo)
+ 
+通过一个实例demo来学习 React flux 的基础.
+
+*安装：* `npm install`
+ 
+*开发：* `npm run dev`
+ 
+*构建：* `npm run build`
+ 
+*也可以在浏览器直接打开* `build/index.html`
