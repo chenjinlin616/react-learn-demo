@@ -4,7 +4,7 @@ react study demos:
 
 ## demo1:  [react-router-demo1](/react-router-demo1)
  
-通过一个实例demo来学习 React Router 的基础.
+通过一个实例demo来学习 react-router 的基础.
 
 *安装：* `npm install`
  
@@ -27,7 +27,7 @@ react study demos:
 
 ## demo2:  [react-flux-demo](/react-flux-demo)
  
-通过一个实例demo来学习 React flux 的基础.
+通过一个实例demo来学习 react-flux 的基础.
 
 *安装：* `npm install`
  
