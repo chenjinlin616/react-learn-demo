@@ -22,7 +22,7 @@ class App extends React.Component{
                 {/*<p>state的值：{k1}</p>*/}
                 {/*<p>state的值：{k2}</p>*/}
                 <img className="mm-pic" src={mmPic}/>
-                <AddController/>
+                <AddController />
             </div>
         )
     }

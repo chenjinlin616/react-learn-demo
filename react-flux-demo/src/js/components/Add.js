@@ -25,6 +25,7 @@ export default class Add extends React.Component{
         // console.log(listsHtml);
         return(
             <div className="add">
+                <h4>输入新任务，enter键新增</h4>
                 <ul>{listsHtml}</ul>
                 <input ref='inputTask' onKeyUp={this.upEnter.bind(this)} type="text" placeholder="输入任务，按enter键"/>
             </div>
