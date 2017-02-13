@@ -15,7 +15,7 @@ react study demos:
 *也可以在浏览器直接打开* `build/index.html`
  
 *效果图：*
-![](http://ohe5avf3y.bkt.clouddn.com/blog/201701/jam-blog-react-router-20170102.jpg)
+![](http://ohe5avf3y.bkt.clouddn.com/blog/201612/jam-blog-react-router-20170103.jpg)
  
  **学习总结**
  
